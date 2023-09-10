@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculatorpro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="body">
+    <div class="form">
+      <div class="inputArea">
+        <input type="text" id="inputDisplay" readonly>
+      </div>
+      <div class="clearButtons">
+        <button id="ac">Ac</button>
+        <button id="del">Del</button>
+      </div>
+      <div class="firstRow">
+        <button onclick="addToDisplay('1')" class="btn1">1</button>
+        <button onclick="addToDisplay('2')" class="btn2">2</button>
+        <button onclick="addToDisplay('3')" class="btn3">3</button>
+        <button onclick="addToDisplay('*')" class="btn4 ">&times;</button>
+      </div>
+      <div class="secondRow">
+        <button onclick="addToDisplay('4')" class="btn1">4</button>
+        <button onclick="addToDisplay('5')" class="btn2">5</button>
+        <button onclick="addToDisplay('6')" class="btn3">6</button>
+        <button onclick="addToDisplay('-')" class="btn4">-</button>
+      </div>
+      <div class="thirdRow">
+        <button onclick="addToDisplay('7')" class="btn1">7</button>
+        <button onclick="addToDisplay('8')" class="btn2">8</button>
+        <button onclick="addToDisplay('9')" class="btn3">9</button>
+        <button onclick="addToDisplay('/')" class="btn4">&divide;</button>
+      </div>
+      <div class="fourthRow">
+        <button onclick="addToDisplay('.')" class="btn1 ">.</button>
+        <button onclick="addToDisplay('0')" class="btn2 ">0</button>
+        <button onclick="addToDisplay('+')" class="btn3 ">+</button>
+        <button id="equal" class="equal">=</button>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
